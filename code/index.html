@@ -28,312 +28,37 @@ body, html {
 </style>
 <body>
 
-#Headercode
 <section class="header">
+<nav>
+  <a href="index.html"><img src="images/logo.jpeg"> </a>
+  <div class="nav-links">
+<ul>
+<li><a href="">HOMEE</a></li>
+<li><a href="">ABOUT</a></li>
+<li><a href="">BLOG</a></li>
+<li><a href="">WORK</a></li>
+<li><a href="">CONTACT</a></li>
 
+
+</ul> 
+    </div>
+</nav>
 
 </section>
 
 
 
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
-    <a href="#home" class="w3-bar-item w3-button w3-wide">Home</a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
-      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Blog</a>
-      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
-      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-    </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
-  <a href="#blog" onclick="w3_close()" class="w3-bar-item w3-button">BLOG</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-</nav>
-
-<!-- Header with full-height image -->
-<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
-  <div class="w3-display-left w3-text-white" style="padding:48px">
-    <span class="w3-jumbo w3-hide-small">Taking the First Steps To My Journey</span><br>
-    <span class="w3-xxlarge w3-hide-large w3-hide-medium">My Journey</span><br>
-    <span class="w3-large">Doing What I Love</span>
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Read More</a></p>
-  </div> 
-  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-
-<!-- social media stuff -->
-     <a href="https://www.facebook.com" class="fa fa-facebook-official w3-hover-opacity"></a>
-  
-    <a href="https://www.instagram.com" class="fa fa-instagram w3-hover-opacity"></a>
-
-    <a href="https://www.snapchat.com" class="fa fa-snapchat w3-hover-opacity"></a>
-   
-    <a href="https://www.pinterest.com/" class="fa fa-pinterest-p w3-hover-opacity"> </a>
-    
-    <a href="https://twitter.com" class="fa fa-twitter w3-hover-opacity"> </a>
-
-    <a href="https://www.linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
-  </div>
-</header>
-
-<!-- About Section -->
-<style>
-  img { border-radius: 50%; } 
-</style>
-
-<div class="w3-container" style="padding:128px 16px" id="about">
-  <h3 class="w3-center">ABOUT ME</h3>
-  <p class="w3-center w3-large">:)</p>
-  <div class="w3-row-padding w3-center" style="margin-top:64px">
-    <div class="w3-quarter">
-      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
-      <p class="w3-large">A little About Me</p>
-      <p>I am 13 years old and I attend middle school in California. I started learning how to code during quarantine and it's become a new hobby of mine! This is my very first website I made using html and css.</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passions</p>
-      <p>A passion I have other than coding is playing instruments. I play the piano and violin. Music is a big thing in my life. </p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Work</p>
-      <p>I help teach international students english. I have 2 years of experience in this field. I also hope to start a youtube channel some day in the future</p>
-    </div>
-    <div class="w3-quarter">
-      <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Education</p>
-      <p>I am a 7th grader at a californian middle school. I take 6 classes; History, Math, Orchestra, Science, Stem, and English. I learn new things everyday and enjoy spending the day with my friends</p>
-    </div>
-  </div>
-</div>
-
-<!-- Promo Section - "We know design" -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>My Blog</h3>
-      <p>Everyone wakes up in the Morning to a new day, but everyone's new day is different. Come find out what I do as a Middle Schooler that lives in California and codes!</p>
-      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View My Work</a></p>
-    </div>
-    <div class="w3-col m6">
-      <img class="w3-image w3-round-large" src="https://thumbs.dreamstime.com/b/girl-works-computer-woman-sits-sketch-style-hand-drawn-work-place-keybord-sticky-notes-cup-notebook-79973980.jpg" alt="me" width="700" height="394">
-    </div>
-  </div>
-</div>
-
-<!-- Team Section -->
-<div class="w3-container" style="padding:128px 16px" id="team">
-  <h3 class="w3-center">Blog~</h3>
-  <p class="w3-center w3-large">Featured Posts</p>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://cdn.shopify.com/s/files/1/0278/5823/9570/articles/Get-Ready-With-Me-2_600x.png?v=1624561572" alt="blog post" style="width:100%">
-        <div class="w3-container">
-          <h3>Get Ready With Me!</h3>
-          <p class="w3-opacity">Blog #1</p>
-          <p>Hi I am Ami. I am the leader of this team. I am the one who makes everything my team decides to do. I code and make videos. My goal is to reach a 1000 subscribers</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Read More</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://assets.gadgets360cdn.com/pricee/assets/product/202111/spider_man_no_way_home_india_1638191040.jpg" alt="Spider Man" style="width:100%">
-        <div class="w3-container">
-          <h3>My Opinion On No Way Home</h3>
-          <p class="w3-opacity">The Newest Spider Man Movie that Caught the Hearts of Millions.</p>
-          <p> Spider Man's identity is revealed to the world and the public doesn't take it lightly. No longer able to live his normal life, Peter searches for Doctor Strange. Along all the chaos and madness, Peter realizes what it truly means to be Spider Man.</p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Read More</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F210831221005-stock-schools-parents-covid-teachers.jpg" alt="school" style="width:100%">
-        <div class="w3-container">
-          <h3>Studying in America</h3>
-          <p class="w3-opacity">School In California</p>
-          <p>I study at one of the best high schools in California. From my experience, it is really different from normal schools. It has a different feeling. </p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Read More</button></p>
-        </div>
-      </div>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <img src="https://i.pcmag.com/imagery/articles/00DDUM2F1UuVX1ciAvfJqM3-9.fit_lim.v1623763322.jpg" alt="video game" style="width:100%">
-        <div class="w3-container">
-          <h3>Are video games harmful?</h3>
-          <p class="w3-opacity">Starting out in 1958, in less than 100 years it became a world wide sensation</p>
-          <p>There are many reasons why video games can be harmful to you. But is that really true? More and more people are starting to realize the potential these games have. </p>
-          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Read More</button></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 
 
-<!-- Work Section -->
-<div class="w3-container" style="padding:128px 16px" id="work">
-  <h3 class="w3-center">My WORK</h3>
-  <p class="w3-center w3-large">What we've accomplished and made</p>
 
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6">
-      <a href="https://amina-mz.github.io">
-      <img alt="Amina's Website" src="https://res.cloudinary.com/people-matters/image/upload/fl_immutable_cache,w_624,h_351,q_auto,f_auto/v1566836043/1566836041.jpg" width="570" height="600"> </a>
-
-    </div>
-    <div class="w3-col l3 m6">
-     <a href="https://janarbek.github.io">
-      <img alt="Johns website" src="https://thumbs.dreamstime.com/b/team-web-developers-designs-news-portal-information-website-flat-vector-illustration-web-development-flat-illustration-124653627.jpg" width="575" height="600"> </a>
-    </div>
-    <div class="w3-col l3 m6">
-      <a href="https://www.youtube.com/channel/UCB_09D4Yg8hupN46Yk4IflQ"> <img alt="Amina's YT Channel" src="https://cdn57.androidauthority.net/wp-content/uploads/2019/01/YouTube-Logo.jpg" width="580" height="600">
-    </div>
-    <div class="w3-col l3 m6">
-     <a href="https://github.com/Amina-MZ"> <img alt="Amina's Github Page" src="https://miro.medium.com/max/719/0*kHdpA0lO-qQVbaXq.png" width="570" height="600">
-    </div>
-  </div>
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col l3 m6">
-    <a href="https://www.youtube.com/channel/UCl-ms3GKzLaqPIi56U_nIsw">
-<img alt="John's Channel" src="https://cdn.searchenginejournal.com/wp-content/uploads/2021/04/change-youtube-channel-name-6087540f4c5db-1520x800.jpg" width="560" height="600">
-    </div>
-  
-   
-    </div>
-   
-    </div>
-  </div>
-</div>
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-<!-- Skills Section -->
-<div class="w3-container w3-light-grey w3-padding-64">
-  <div class="w3-row-padding">
-    <div class="w3-col m6">
-      <h3>My Skills.</h3>
-      <p>The things I do best</p>
-      <p>I have over 2 years of experience with coding.<br>
-        I started learning html and css when quarantine first started. Soon enough it became one of my hobbys that I enjoy. Who knew that in just a short amount of time I would be able to make my very own website!<br> Recently I started making youtube videos. I am looking forward to growing my channel!</p>
-    </div>
-    <div class="w3-col m6">
-      
-
-      </p>
-
-      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
-      <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:85%">90%</div>
-      </div>
-      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Video Making</p>
-      <div class="w3-grey">
-        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Pricing Section -->
-
-<!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
-  <p class="w3-center w3-large">Lets get in touch! Send us a message:</p>
-  <div style="margin-top:48px">
-    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> California, US</p>
-   
-    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: amsdca2020@gmail.com</p>
-    <br>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-      <p>
-        <button class="w3-button w3-black" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-    <!-- Image of location/map -->
-    <img src="https://smartech.online/wp-content/uploads/2016/12/webdevelopment2.jpg" style="width:100%;margin-top:48px">
-  </div>
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64">
-  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-
-    <a href="https://www.facebook.com" class="fa fa-facebook-official w3-hover-opacity"></a>
-  
-    <a href="https://www.instagram.com" class="fa fa-instagram w3-hover-opacity"></a>
-
-    <a href="https://www.snapchat.com" class="fa fa-snapchat w3-hover-opacity"></a>
-   
-    <a href="https://www.pinterest.com/" class="fa fa-pinterest-p w3-hover-opacity"> </a>
-    
-    <a href="https://twitter.com" class="fa fa-twitter w3-hover-opacity"> </a>
-
-    <a href="https://www.linkedin.com" class="fa fa-linkedin w3-hover-opacity"></a>
-  </div>
   
 </footer>
  
 <script>
-// Modal Image Gallery
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-  var captionText = document.getElementById("caption");
-  captionText.innerHTML = element.alt;
-}
 
 
-// Toggle between showing and hiding the sidebar when clicking the menu icon
-var mySidebar = document.getElementById("mySidebar");
-
-function w3_open() {
-  if (mySidebar.style.display === 'block') {
-    mySidebar.style.display = 'none';
-  } else {
-    mySidebar.style.display = 'block';
-  }
-}
-
-// Close the sidebar with the close button
-function w3_close() {
-    mySidebar.style.display = "none";
-}
 </script>
 
 </body>
